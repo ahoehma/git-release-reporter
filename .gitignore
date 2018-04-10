@@ -1,0 +1,174 @@
+#
+# Maven
+# https://github.com/github/gitignore/blob/master/Maven.gitignore
+#
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#
+# maven war plugin with "process manifest"
+#
+*/src/main/webapp/META-INF/MANIFEST.MF
+
+#
+# GWT
+# https://github.com/github/gitignore/blob/master/GWT.gitignore
+#
+*.class
+# Package Files #
+*.jar
+*.war
+# gwt caches and compiled units #
+war/gwt_bree/
+gwt-unitCache/
+# boilerplate generated classes #
+.apt_generated/
+# more caches and things from deploy #
+war/WEB-INF/deploy/
+war/WEB-INF/classes/
+#compilation logs
+.gwt/
+#caching for already compiled files
+gwt-unitCache/
+#gwt junit compilation files
+www-test/
+#old GWT (1.5) created this dir
+.gwt-tmp/
+
+#
+# SASS
+# https://github.com/github/gitignore/blob/master/Sass.gitignore
+#
+.sass-cache/
+*.css.map
+
+#
+# Windows
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+#
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+
+#
+# Eclipse common
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+#
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+# Eclipse Core
+.project
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse checkstyle configurations"
+.checkstyle
+# Locally stored "Eclipse launch configurations"
+*.launch
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+# Java annotation processor (APT)
+.factorypath
+# PDT-specific (PHP Development Tools)
+.buildpath
+# sbteclipse plugin
+.target
+# Tern plugin
+.tern-project
+# TeXlipse plugin
+.texlipse
+# STS (Spring Tool Suite)
+.springBeans
+# Code Recommenders
+.recommenders/
+# sts 4
+.sts4-cache/
+
+
+#
+## IDEA ignores
+#
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+#
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+*.iml
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+.idea/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+#
+# JRebel
+#
+rebel.xml
+
+#
+# Derby
+#
+derby.log
+/xml_catalog.xml
